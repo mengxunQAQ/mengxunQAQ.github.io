@@ -2,7 +2,7 @@
 layout:     post
 title:      Django安装app需要注意的问题
 subtitle:   从一个BUG说起
-date:       2018-4-22
+date:       2018-04-22
 author:     mengxun
 header-img: img/pipenv.jpg
 catalog: true
