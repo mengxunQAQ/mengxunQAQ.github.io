@@ -1,0 +1,38 @@
+---
+layout:     post
+title:      Nginx 配置里 root 和 alias 的区别
+subtitle:   root 和 alias 指令的差异
+date:       2019-06-12
+author:     mengxun
+header-img: img/pipenv.jpg
+catalog: true
+tags:
+    - Nginx
+---
+
+#### root 的写法
+
+```
+location /html/ {
+		root /home/data/;
+}
+```
+
+当一个 URL 的路径部分为 `/html/index.html`的时候，则最终请求的资源的路径相当于`/home/data/html/index.html`
+
+#### alias 的写法
+
+```
+location /html/ {
+		alias /home/data/;
+}
+```
+
+当一个 URL 的路径部分为 `/html/index.html`的时候，则最终请求的资源的路径相当于`/home/data/index.html`
+
+#### 两者的区别
+
+第一种写法的最终路径等于 root 指令指定的路径加上 location 的路径；而第二种写法的话，不管 location 的路径如何，最终路径都会等于 alias 指定的路径加上 location
+
+
+
