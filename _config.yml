@@ -12,7 +12,7 @@ github_repo: "https://github.com/mengxunQAQ/mengxunQAQ.github.io" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "0100 1000 0110 1001"
-sidebar-avatar: /img/head_photo.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/post-bg-desk.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
