@@ -4,7 +4,7 @@ title:      Nginx 配置里 root 和 alias 的区别
 subtitle:   root 和 alias 指令的差异
 date:       2019-06-12
 author:     mengxun
-header-img: img/pipenv.jpg
+header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:
     - Nginx

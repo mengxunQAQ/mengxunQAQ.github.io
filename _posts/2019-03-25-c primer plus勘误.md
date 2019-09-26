@@ -4,7 +4,7 @@ title:      c primer plus勘误
 subtitle:   程序17.2的一处错误
 date:       2019-03-25
 author:     mengxun
-header-img: img/pipenv.jpg
+header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:
     - C/C++
