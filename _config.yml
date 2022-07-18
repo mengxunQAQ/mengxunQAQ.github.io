@@ -4,14 +4,14 @@ SEOTitle: 因特一隅
 header-img: img/post-bg-unix-linux.jpg
 email: mengxun1122@foxmail.com
 description: ""
-keyword: "mengxun, 孟勋, mengxun blog, 孟勋的博客, Python"
+keyword: "mengxun, 孟勋, mengxun blog, mengxunqaq, mengxunQAQ"
 url: "http://mengxunQAQ.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/mengxunQAQ/mengxunQAQ.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "0100 1000 0110 1001"
+sidebar-about-description: "dive into deep sea"
 sidebar-avatar: /img/head_photo_20220420.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
