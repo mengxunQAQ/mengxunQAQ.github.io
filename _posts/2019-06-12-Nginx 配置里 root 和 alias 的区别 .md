@@ -32,7 +32,7 @@ location /html/ {
 
 #### 两者的区别
 
-第一种写法的最终路径等于 root 指令指定的路径加上 location 的路径；而第二种写法的话，不管 location 的路径如何，最终路径都只会等于 alias 指定的路径加上 location。
+第一种写法的最终路径等于 root 指令指定的路径加上 url 的完整路径；而第二种写法的话，nginx则会用alias指定的路径去替换url里的部分内容，替换掉的这部分内容就是location，类似 path = url.replace(location, alias)。
 
 
 
