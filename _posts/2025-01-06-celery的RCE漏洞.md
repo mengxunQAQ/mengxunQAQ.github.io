@@ -50,10 +50,13 @@ class Exploit:
         return (os.system, ("echo 'Pickle executed!'",))
 
 payload = pickle.dumps(Exploit())
+
 print("Pickle payload created.")
 
 print("Deserializing payload...")
+
 pickle.loads(payload)  # attacked
+
 print("Done.")
 ```
 
