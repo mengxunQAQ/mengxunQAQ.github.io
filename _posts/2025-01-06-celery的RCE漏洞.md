@@ -68,8 +68,7 @@ efcc976c84df   redis                  "docker-entrypoint.s…"   2 hours ago   U
 
 然后通过如下逻辑往`redis`的队列里下发任务
 
-{% raw %}
-```python
+<pre><code class="language-python">
 import pickle
 import json
 import base64
@@ -111,8 +110,7 @@ pickleData = pickle.dumps(Person(command))
 task_dict['body']=base64.b64encode(pickleData).decode()
 print(task_dict)
 r.lpush('celery',json.dumps(task_dict))
-```
-{% endraw %}
+</code></pre>
 
 然后在用`nc`命令提前拉起的接收端便可接收到相应内容
 ```shell
