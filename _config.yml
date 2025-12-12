@@ -11,7 +11,7 @@ github_repo: "https://github.com/mengxunQAQ/mengxunQAQ.github.io" # you code rep
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "伟大的工程要建三百年，却不知道一场大雪就要来。"
+sidebar-about-description: "伟大的工程要建三百年"
 sidebar-avatar: /img/head_photo_20220420.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
